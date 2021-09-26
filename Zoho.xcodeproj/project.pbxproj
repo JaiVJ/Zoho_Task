@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		296134E4270049A700656330 /* dayScatteredClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134D2270049A600656330 /* dayScatteredClouds.json */; };
+		296134E5270049A700656330 /* dayMist.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134D3270049A600656330 /* dayMist.json */; };
+		296134E6270049A700656330 /* nightSnow.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134D4270049A600656330 /* nightSnow.json */; };
+		296134E7270049A700656330 /* daySnow.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134D5270049A600656330 /* daySnow.json */; };
+		296134E8270049A700656330 /* nightRain.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134D6270049A600656330 /* nightRain.json */; };
+		296134E9270049A700656330 /* nightShowerRains.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134D7270049A600656330 /* nightShowerRains.json */; };
+		296134EA270049A700656330 /* dayRain.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134D8270049A600656330 /* dayRain.json */; };
+		296134EB270049A700656330 /* nightBrokenClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134D9270049A600656330 /* nightBrokenClouds.json */; };
+		296134EC270049A700656330 /* nightThunderstorm.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134DA270049A700656330 /* nightThunderstorm.json */; };
+		296134ED270049A700656330 /* dayFewClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134DB270049A700656330 /* dayFewClouds.json */; };
+		296134EE270049A700656330 /* dayClearSky.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134DC270049A700656330 /* dayClearSky.json */; };
+		296134EF270049A700656330 /* nightFewClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134DD270049A700656330 /* nightFewClouds.json */; };
+		296134F0270049A700656330 /* nightClearSky.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134DE270049A700656330 /* nightClearSky.json */; };
+		296134F1270049A700656330 /* nightMist.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134DF270049A700656330 /* nightMist.json */; };
+		296134F2270049A700656330 /* dayShowerRains.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134E0270049A700656330 /* dayShowerRains.json */; };
+		296134F3270049A700656330 /* nightScatteredClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134E1270049A700656330 /* nightScatteredClouds.json */; };
+		296134F4270049A700656330 /* dayBrokenClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134E2270049A700656330 /* dayBrokenClouds.json */; };
+		296134F5270049A700656330 /* dayThunderstorm.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134E3270049A700656330 /* dayThunderstorm.json */; };
+		296134F72700615000656330 /* WeatherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296134F62700615000656330 /* WeatherDetailsViewController.swift */; };
+		296134FA2700699F00656330 /* WeatherHourlyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296134F82700699F00656330 /* WeatherHourlyCollectionViewCell.swift */; };
+		296134FB2700699F00656330 /* WeatherHourlyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 296134F92700699F00656330 /* WeatherHourlyCollectionViewCell.xib */; };
+		29764AF6270001B000283A90 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29764AF5270001B000283A90 /* WeatherViewController.swift */; };
+		29764AF8270013AE00283A90 /* WeatherModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29764AF7270013AE00283A90 /* WeatherModal.swift */; };
+		29764AFA270013C700283A90 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29764AF9270013C700283A90 /* WeatherViewModel.swift */; };
+		29764AFC2700179100283A90 /* WeatherDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29764AFB2700179100283A90 /* WeatherDataSource.swift */; };
+		29764AFE270018B600283A90 /* Constant+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29764AFD270018B600283A90 /* Constant+Key.swift */; };
+		29C7A8AE26FEAC56008F2957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A8AD26FEAC56008F2957 /* AppDelegate.swift */; };
+		29C7A8B526FEAC56008F2957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C7A8B326FEAC56008F2957 /* Main.storyboard */; };
+		29C7A8B826FEAC56008F2957 /* Zoho.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A8B626FEAC56008F2957 /* Zoho.xcdatamodeld */; };
+		29C7A8BA26FEAC57008F2957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C7A8B926FEAC57008F2957 /* Assets.xcassets */; };
+		29C7A8BD26FEAC57008F2957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C7A8BB26FEAC57008F2957 /* LaunchScreen.storyboard */; };
+		29C7A8C526FEADB1008F2957 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A8C426FEADB1008F2957 /* SplashViewController.swift */; };
+		29C7A8CB26FEB052008F2957 /* SplashAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A8C826FEB052008F2957 /* SplashAnimatable.swift */; };
+		29C7A8CC26FEB052008F2957 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A8C926FEB052008F2957 /* Animations.swift */; };
+		29C7A8CE26FEB062008F2957 /* RevealingSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A8CD26FEB062008F2957 /* RevealingSplashView.swift */; };
+		29C7A8D826FEB45A008F2957 /* Storyboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A8D626FEB45A008F2957 /* Storyboard+Extension.swift */; };
+		29C7A8D926FEB45A008F2957 /* Storyboard+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A8D726FEB45A008F2957 /* Storyboard+Enum.swift */; };
+		29C7A8DE26FEB535008F2957 /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A8DD26FEB535008F2957 /* MainTabbarViewController.swift */; };
+		29C7A8E326FEBC92008F2957 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A8E026FEBC92008F2957 /* Connection.swift */; };
+		29C7A8E426FEBC92008F2957 /* APIList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A8E126FEBC92008F2957 /* APIList.swift */; };
+		29C7A8E826FEBCFB008F2957 /* Constant+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A8E726FEBCFB008F2957 /* Constant+Helper.swift */; };
+		29C7A8EB26FEBF87008F2957 /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A8EA26FEBF87008F2957 /* DatabaseController.swift */; };
+		29C7A8EF26FEF3EB008F2957 /* UserModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A8EE26FEF3EB008F2957 /* UserModal.swift */; };
+		29C7A8F226FEF821008F2957 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A8F126FEF821008F2957 /* UserListViewController.swift */; };
+		29C7A8F426FEF979008F2957 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C7A8F326FEF979008F2957 /* Color.xcassets */; };
+		29C7A8FB26FEFCAF008F2957 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29C7A8F626FEFCAF008F2957 /* Gilroy-Regular.ttf */; };
+		29C7A8FC26FEFCAF008F2957 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29C7A8F726FEFCAF008F2957 /* Gilroy-Light.ttf */; };
+		29C7A8FD26FEFCAF008F2957 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29C7A8F826FEFCAF008F2957 /* Gilroy-Medium.ttf */; };
+		29C7A8FE26FEFCAF008F2957 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29C7A8F926FEFCAF008F2957 /* Gilroy-Bold.ttf */; };
+		29C7A8FF26FEFCAF008F2957 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29C7A8FA26FEFCAF008F2957 /* Gilroy-Heavy.ttf */; };
+		29C7A90126FEFCE5008F2957 /* Constant+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A90026FEFCE5008F2957 /* Constant+Font.swift */; };
+		29C7A90326FEFDC1008F2957 /* Constant+Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A90226FEFDC1008F2957 /* Constant+Strings.swift */; };
+		29C7A90626FEFF82008F2957 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A90526FEFF82008F2957 /* UserViewModel.swift */; };
+		29C7A90826FF002C008F2957 /* UserDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A90726FF002C008F2957 /* UserDataSource.swift */; };
+		29C7A90F26FF13A1008F2957 /* UserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A90D26FF13A1008F2957 /* UserListTableViewCell.swift */; };
+		29C7A91026FF13A1008F2957 /* UserListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29C7A90E26FF13A1008F2957 /* UserListTableViewCell.xib */; };
+		29C7A91226FF1797008F2957 /* Constant+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A91126FF1797008F2957 /* Constant+Extension.swift */; };
+		29C7A91426FF35D1008F2957 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A91326FF35D1008F2957 /* UserDetailsViewController.swift */; };
+		29C7A91626FF37B1008F2957 /* UserDetailsModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7A91526FF37B1008F2957 /* UserDetailsModal.swift */; };
+		29EDDE8E26FFA17E00A7F5A2 /* Constant+Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EDDE8D26FFA17E00A7F5A2 /* Constant+Singleton.swift */; };
+		9967E956B09E4FDB812F66C9 /* Pods_Zoho.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B861ADA065491BB17AC5B0 /* Pods_Zoho.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15B861ADA065491BB17AC5B0 /* Pods_Zoho.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zoho.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		296134D2270049A600656330 /* dayScatteredClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayScatteredClouds.json; sourceTree = "<group>"; };
+		296134D3270049A600656330 /* dayMist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayMist.json; sourceTree = "<group>"; };
+		296134D4270049A600656330 /* nightSnow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightSnow.json; sourceTree = "<group>"; };
+		296134D5270049A600656330 /* daySnow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = daySnow.json; sourceTree = "<group>"; };
+		296134D6270049A600656330 /* nightRain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightRain.json; sourceTree = "<group>"; };
+		296134D7270049A600656330 /* nightShowerRains.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightShowerRains.json; sourceTree = "<group>"; };
+		296134D8270049A600656330 /* dayRain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayRain.json; sourceTree = "<group>"; };
+		296134D9270049A600656330 /* nightBrokenClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightBrokenClouds.json; sourceTree = "<group>"; };
+		296134DA270049A700656330 /* nightThunderstorm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightThunderstorm.json; sourceTree = "<group>"; };
+		296134DB270049A700656330 /* dayFewClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayFewClouds.json; sourceTree = "<group>"; };
+		296134DC270049A700656330 /* dayClearSky.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayClearSky.json; sourceTree = "<group>"; };
+		296134DD270049A700656330 /* nightFewClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightFewClouds.json; sourceTree = "<group>"; };
+		296134DE270049A700656330 /* nightClearSky.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightClearSky.json; sourceTree = "<group>"; };
+		296134DF270049A700656330 /* nightMist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightMist.json; sourceTree = "<group>"; };
+		296134E0270049A700656330 /* dayShowerRains.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayShowerRains.json; sourceTree = "<group>"; };
+		296134E1270049A700656330 /* nightScatteredClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightScatteredClouds.json; sourceTree = "<group>"; };
+		296134E2270049A700656330 /* dayBrokenClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayBrokenClouds.json; sourceTree = "<group>"; };
+		296134E3270049A700656330 /* dayThunderstorm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayThunderstorm.json; sourceTree = "<group>"; };
+		296134F62700615000656330 /* WeatherDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsViewController.swift; sourceTree = "<group>"; };
+		296134F82700699F00656330 /* WeatherHourlyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHourlyCollectionViewCell.swift; sourceTree = "<group>"; };
+		296134F92700699F00656330 /* WeatherHourlyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherHourlyCollectionViewCell.xib; sourceTree = "<group>"; };
+		29764AF5270001B000283A90 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		29764AF7270013AE00283A90 /* WeatherModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModal.swift; sourceTree = "<group>"; };
+		29764AF9270013C700283A90 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		29764AFB2700179100283A90 /* WeatherDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataSource.swift; sourceTree = "<group>"; };
+		29764AFD270018B600283A90 /* Constant+Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constant+Key.swift"; sourceTree = "<group>"; };
+		29C7A8AA26FEAC56008F2957 /* Zoho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C7A8AD26FEAC56008F2957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29C7A8B426FEAC56008F2957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29C7A8B726FEAC56008F2957 /* Zoho.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zoho.xcdatamodel; sourceTree = "<group>"; };
+		29C7A8B926FEAC57008F2957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29C7A8BC26FEAC57008F2957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29C7A8BE26FEAC57008F2957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29C7A8C426FEADB1008F2957 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		29C7A8C826FEB052008F2957 /* SplashAnimatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashAnimatable.swift; sourceTree = "<group>"; };
+		29C7A8C926FEB052008F2957 /* Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		29C7A8CD26FEB062008F2957 /* RevealingSplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevealingSplashView.swift; sourceTree = "<group>"; };
+		29C7A8D626FEB45A008F2957 /* Storyboard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Extension.swift"; sourceTree = "<group>"; };
+		29C7A8D726FEB45A008F2957 /* Storyboard+Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Enum.swift"; sourceTree = "<group>"; };
+		29C7A8DD26FEB535008F2957 /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
+		29C7A8E026FEBC92008F2957 /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		29C7A8E126FEBC92008F2957 /* APIList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIList.swift; sourceTree = "<group>"; };
+		29C7A8E726FEBCFB008F2957 /* Constant+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constant+Helper.swift"; sourceTree = "<group>"; };
+		29C7A8EA26FEBF87008F2957 /* DatabaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
+		29C7A8EE26FEF3EB008F2957 /* UserModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModal.swift; sourceTree = "<group>"; };
+		29C7A8F126FEF821008F2957 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		29C7A8F326FEF979008F2957 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		29C7A8F626FEFCAF008F2957 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		29C7A8F726FEFCAF008F2957 /* Gilroy-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.ttf"; sourceTree = "<group>"; };
+		29C7A8F826FEFCAF008F2957 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		29C7A8F926FEFCAF008F2957 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		29C7A8FA26FEFCAF008F2957 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
+		29C7A90026FEFCE5008F2957 /* Constant+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constant+Font.swift"; sourceTree = "<group>"; };
+		29C7A90226FEFDC1008F2957 /* Constant+Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constant+Strings.swift"; sourceTree = "<group>"; };
+		29C7A90526FEFF82008F2957 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		29C7A90726FF002C008F2957 /* UserDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataSource.swift; sourceTree = "<group>"; };
+		29C7A90D26FF13A1008F2957 /* UserListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListTableViewCell.swift; sourceTree = "<group>"; };
+		29C7A90E26FF13A1008F2957 /* UserListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListTableViewCell.xib; sourceTree = "<group>"; };
+		29C7A91126FF1797008F2957 /* Constant+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constant+Extension.swift"; sourceTree = "<group>"; };
+		29C7A91326FF35D1008F2957 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		29C7A91526FF37B1008F2957 /* UserDetailsModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsModal.swift; sourceTree = "<group>"; };
+		29EDDE8D26FFA17E00A7F5A2 /* Constant+Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constant+Singleton.swift"; sourceTree = "<group>"; };
+		5CECF14F2DA42F90E546DD2B /* Pods-Zoho.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zoho.release.xcconfig"; path = "Target Support Files/Pods-Zoho/Pods-Zoho.release.xcconfig"; sourceTree = "<group>"; };
+		FA5DCDD9CE84F940FB04B85F /* Pods-Zoho.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zoho.debug.xcconfig"; path = "Target Support Files/Pods-Zoho/Pods-Zoho.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29C7A8A726FEAC56008F2957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9967E956B09E4FDB812F66C9 /* Pods_Zoho.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		296134D12700499600656330 /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				296134E2270049A700656330 /* dayBrokenClouds.json */,
+				296134DC270049A700656330 /* dayClearSky.json */,
+				296134DB270049A700656330 /* dayFewClouds.json */,
+				296134D3270049A600656330 /* dayMist.json */,
+				296134D8270049A600656330 /* dayRain.json */,
+				296134D2270049A600656330 /* dayScatteredClouds.json */,
+				296134E0270049A700656330 /* dayShowerRains.json */,
+				296134D5270049A600656330 /* daySnow.json */,
+				296134E3270049A700656330 /* dayThunderstorm.json */,
+				296134D9270049A600656330 /* nightBrokenClouds.json */,
+				296134DE270049A700656330 /* nightClearSky.json */,
+				296134DD270049A700656330 /* nightFewClouds.json */,
+				296134DF270049A700656330 /* nightMist.json */,
+				296134D6270049A600656330 /* nightRain.json */,
+				296134E1270049A700656330 /* nightScatteredClouds.json */,
+				296134D7270049A600656330 /* nightShowerRains.json */,
+				296134D4270049A600656330 /* nightSnow.json */,
+				296134DA270049A700656330 /* nightThunderstorm.json */,
+			);
+			name = LottieAnimations;
+			sourceTree = "<group>";
+		};
+		296134FC270069AB00656330 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				296134F82700699F00656330 /* WeatherHourlyCollectionViewCell.swift */,
+				296134F92700699F00656330 /* WeatherHourlyCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29764AF4270001A000283A90 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				296134FC270069AB00656330 /* View */,
+				29764AF5270001B000283A90 /* WeatherViewController.swift */,
+				296134F62700615000656330 /* WeatherDetailsViewController.swift */,
+				29764AF7270013AE00283A90 /* WeatherModal.swift */,
+				29764AF9270013C700283A90 /* WeatherViewModel.swift */,
+				29764AFB2700179100283A90 /* WeatherDataSource.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		29C7A8A126FEAC56008F2957 = {
+			isa = PBXGroup;
+			children = (
+				29C7A8AC26FEAC56008F2957 /* Zoho */,
+				29C7A8AB26FEAC56008F2957 /* Products */,
+				AC10CF90AFB0B8A3689DC76C /* Pods */,
+				83198813E5C3FFE08FAD7197 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29C7A8AB26FEAC56008F2957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29C7A8AA26FEAC56008F2957 /* Zoho.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29C7A8AC26FEAC56008F2957 /* Zoho */ = {
+			isa = PBXGroup;
+			children = (
+				29C7A8D026FEB3B2008F2957 /* Helper */,
+				29C7A8D226FEB3C6008F2957 /* AppDelegate */,
+				29C7A8D326FEB3D1008F2957 /* Project */,
+				29C7A8D426FEB3EA008F2957 /* Resources */,
+				29C7A8BE26FEAC57008F2957 /* Info.plist */,
+				29C7A8B626FEAC56008F2957 /* Zoho.xcdatamodeld */,
+			);
+			path = Zoho;
+			sourceTree = "<group>";
+		};
+		29C7A8C626FEB033008F2957 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				29C7A8CD26FEB062008F2957 /* RevealingSplashView.swift */,
+				29C7A8C926FEB052008F2957 /* Animations.swift */,
+				29C7A8C826FEB052008F2957 /* SplashAnimatable.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		29C7A8D026FEB3B2008F2957 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				29C7A8E926FEBF75008F2957 /* DatabaseController */,
+				29C7A8E626FEBCEF008F2957 /* Constant */,
+				29C7A8DF26FEBC70008F2957 /* API Client */,
+				29C7A8D526FEB44E008F2957 /* Storyboard+Protocol */,
+				29C7A8C626FEB033008F2957 /* Animation */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		29C7A8D226FEB3C6008F2957 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				29C7A8AD26FEAC56008F2957 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		29C7A8D326FEB3D1008F2957 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				29764AF4270001A000283A90 /* Weather */,
+				29C7A8EC26FEF3D2008F2957 /* UserList */,
+				29C7A8DC26FEB521008F2957 /* Tabbar */,
+				29C7A8DB26FEB4D4008F2957 /* Splash */,
+				29C7A8DA26FEB4C3008F2957 /* Storyboard */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		29C7A8D426FEB3EA008F2957 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				296134D12700499600656330 /* LottieAnimations */,
+				29C7A8F526FEFC9C008F2957 /* Font */,
+				29C7A8B926FEAC57008F2957 /* Assets.xcassets */,
+				29C7A8F326FEF979008F2957 /* Color.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29C7A8D526FEB44E008F2957 /* Storyboard+Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				29C7A8D726FEB45A008F2957 /* Storyboard+Enum.swift */,
+				29C7A8D626FEB45A008F2957 /* Storyboard+Extension.swift */,
+			);
+			path = "Storyboard+Protocol";
+			sourceTree = "<group>";
+		};
+		29C7A8DA26FEB4C3008F2957 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				29C7A8B326FEAC56008F2957 /* Main.storyboard */,
+				29C7A8BB26FEAC57008F2957 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		29C7A8DB26FEB4D4008F2957 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				29C7A8C426FEADB1008F2957 /* SplashViewController.swift */,
+			);
+			name = Splash;
+			sourceTree = "<group>";
+		};
+		29C7A8DC26FEB521008F2957 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				29C7A8DD26FEB535008F2957 /* MainTabbarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		29C7A8DF26FEBC70008F2957 /* API Client */ = {
+			isa = PBXGroup;
+			children = (
+				29C7A8E126FEBC92008F2957 /* APIList.swift */,
+				29C7A8E026FEBC92008F2957 /* Connection.swift */,
+			);
+			path = "API Client";
+			sourceTree = "<group>";
+		};
+		29C7A8E626FEBCEF008F2957 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				29C7A8E726FEBCFB008F2957 /* Constant+Helper.swift */,
+				29C7A90026FEFCE5008F2957 /* Constant+Font.swift */,
+				29C7A90226FEFDC1008F2957 /* Constant+Strings.swift */,
+				29C7A91126FF1797008F2957 /* Constant+Extension.swift */,
+				29EDDE8D26FFA17E00A7F5A2 /* Constant+Singleton.swift */,
+				29764AFD270018B600283A90 /* Constant+Key.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		29C7A8E926FEBF75008F2957 /* DatabaseController */ = {
+			isa = PBXGroup;
+			children = (
+				29C7A8EA26FEBF87008F2957 /* DatabaseController.swift */,
+			);
+			path = DatabaseController;
+			sourceTree = "<group>";
+		};
+		29C7A8EC26FEF3D2008F2957 /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				29C7A90C26FF138B008F2957 /* View */,
+				29C7A8EE26FEF3EB008F2957 /* UserModal.swift */,
+				29C7A91526FF37B1008F2957 /* UserDetailsModal.swift */,
+				29C7A90526FEFF82008F2957 /* UserViewModel.swift */,
+				29C7A8F126FEF821008F2957 /* UserListViewController.swift */,
+				29C7A91326FF35D1008F2957 /* UserDetailsViewController.swift */,
+				29C7A90726FF002C008F2957 /* UserDataSource.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		29C7A8F526FEFC9C008F2957 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				29C7A8F926FEFCAF008F2957 /* Gilroy-Bold.ttf */,
+				29C7A8FA26FEFCAF008F2957 /* Gilroy-Heavy.ttf */,
+				29C7A8F726FEFCAF008F2957 /* Gilroy-Light.ttf */,
+				29C7A8F826FEFCAF008F2957 /* Gilroy-Medium.ttf */,
+				29C7A8F626FEFCAF008F2957 /* Gilroy-Regular.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		29C7A90C26FF138B008F2957 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29C7A90D26FF13A1008F2957 /* UserListTableViewCell.swift */,
+				29C7A90E26FF13A1008F2957 /* UserListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		83198813E5C3FFE08FAD7197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15B861ADA065491BB17AC5B0 /* Pods_Zoho.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC10CF90AFB0B8A3689DC76C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA5DCDD9CE84F940FB04B85F /* Pods-Zoho.debug.xcconfig */,
+				5CECF14F2DA42F90E546DD2B /* Pods-Zoho.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29C7A8A926FEAC56008F2957 /* Zoho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C7A8C126FEAC57008F2957 /* Build configuration list for PBXNativeTarget "Zoho" */;
+			buildPhases = (
+				57C467A3AF6E2C627B911264 /* [CP] Check Pods Manifest.lock */,
+				29C7A8A626FEAC56008F2957 /* Sources */,
+				29C7A8A726FEAC56008F2957 /* Frameworks */,
+				29C7A8A826FEAC56008F2957 /* Resources */,
+				37EB4D7BB4D28AEC92485612 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zoho;
+			productName = Zoho;
+			productReference = 29C7A8AA26FEAC56008F2957 /* Zoho.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29C7A8A226FEAC56008F2957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					29C7A8A926FEAC56008F2957 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 29C7A8A526FEAC56008F2957 /* Build configuration list for PBXProject "Zoho" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29C7A8A126FEAC56008F2957;
+			productRefGroup = 29C7A8AB26FEAC56008F2957 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29C7A8A926FEAC56008F2957 /* Zoho */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29C7A8A826FEAC56008F2957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C7A91026FF13A1008F2957 /* UserListTableViewCell.xib in Resources */,
+				29C7A8FB26FEFCAF008F2957 /* Gilroy-Regular.ttf in Resources */,
+				296134E4270049A700656330 /* dayScatteredClouds.json in Resources */,
+				296134ED270049A700656330 /* dayFewClouds.json in Resources */,
+				29C7A8FD26FEFCAF008F2957 /* Gilroy-Medium.ttf in Resources */,
+				296134F1270049A700656330 /* nightMist.json in Resources */,
+				296134E8270049A700656330 /* nightRain.json in Resources */,
+				29C7A8BD26FEAC57008F2957 /* LaunchScreen.storyboard in Resources */,
+				296134F3270049A700656330 /* nightScatteredClouds.json in Resources */,
+				296134F5270049A700656330 /* dayThunderstorm.json in Resources */,
+				29C7A8F426FEF979008F2957 /* Color.xcassets in Resources */,
+				296134EC270049A700656330 /* nightThunderstorm.json in Resources */,
+				296134EB270049A700656330 /* nightBrokenClouds.json in Resources */,
+				296134FB2700699F00656330 /* WeatherHourlyCollectionViewCell.xib in Resources */,
+				29C7A8FC26FEFCAF008F2957 /* Gilroy-Light.ttf in Resources */,
+				296134EA270049A700656330 /* dayRain.json in Resources */,
+				296134E5270049A700656330 /* dayMist.json in Resources */,
+				29C7A8BA26FEAC57008F2957 /* Assets.xcassets in Resources */,
+				296134F4270049A700656330 /* dayBrokenClouds.json in Resources */,
+				296134F0270049A700656330 /* nightClearSky.json in Resources */,
+				29C7A8FF26FEFCAF008F2957 /* Gilroy-Heavy.ttf in Resources */,
+				296134F2270049A700656330 /* dayShowerRains.json in Resources */,
+				296134EF270049A700656330 /* nightFewClouds.json in Resources */,
+				29C7A8B526FEAC56008F2957 /* Main.storyboard in Resources */,
+				296134E9270049A700656330 /* nightShowerRains.json in Resources */,
+				296134EE270049A700656330 /* dayClearSky.json in Resources */,
+				296134E7270049A700656330 /* daySnow.json in Resources */,
+				29C7A8FE26FEFCAF008F2957 /* Gilroy-Bold.ttf in Resources */,
+				296134E6270049A700656330 /* nightSnow.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37EB4D7BB4D28AEC92485612 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zoho/Pods-Zoho-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zoho/Pods-Zoho-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zoho/Pods-Zoho-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57C467A3AF6E2C627B911264 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zoho-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29C7A8A626FEAC56008F2957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C7A91626FF37B1008F2957 /* UserDetailsModal.swift in Sources */,
+				29C7A8E826FEBCFB008F2957 /* Constant+Helper.swift in Sources */,
+				29C7A8DE26FEB535008F2957 /* MainTabbarViewController.swift in Sources */,
+				29C7A8B826FEAC56008F2957 /* Zoho.xcdatamodeld in Sources */,
+				29C7A8F226FEF821008F2957 /* UserListViewController.swift in Sources */,
+				29C7A8EF26FEF3EB008F2957 /* UserModal.swift in Sources */,
+				29C7A90126FEFCE5008F2957 /* Constant+Font.swift in Sources */,
+				29C7A8EB26FEBF87008F2957 /* DatabaseController.swift in Sources */,
+				29C7A90826FF002C008F2957 /* UserDataSource.swift in Sources */,
+				296134F72700615000656330 /* WeatherDetailsViewController.swift in Sources */,
+				29764AFE270018B600283A90 /* Constant+Key.swift in Sources */,
+				29C7A8CB26FEB052008F2957 /* SplashAnimatable.swift in Sources */,
+				29C7A8CE26FEB062008F2957 /* RevealingSplashView.swift in Sources */,
+				29C7A8AE26FEAC56008F2957 /* AppDelegate.swift in Sources */,
+				29764AFC2700179100283A90 /* WeatherDataSource.swift in Sources */,
+				29C7A8E326FEBC92008F2957 /* Connection.swift in Sources */,
+				29764AF8270013AE00283A90 /* WeatherModal.swift in Sources */,
+				29C7A91426FF35D1008F2957 /* UserDetailsViewController.swift in Sources */,
+				29C7A90F26FF13A1008F2957 /* UserListTableViewCell.swift in Sources */,
+				29C7A90626FEFF82008F2957 /* UserViewModel.swift in Sources */,
+				29EDDE8E26FFA17E00A7F5A2 /* Constant+Singleton.swift in Sources */,
+				296134FA2700699F00656330 /* WeatherHourlyCollectionViewCell.swift in Sources */,
+				29C7A8CC26FEB052008F2957 /* Animations.swift in Sources */,
+				29C7A8D826FEB45A008F2957 /* Storyboard+Extension.swift in Sources */,
+				29C7A90326FEFDC1008F2957 /* Constant+Strings.swift in Sources */,
+				29C7A8C526FEADB1008F2957 /* SplashViewController.swift in Sources */,
+				29764AFA270013C700283A90 /* WeatherViewModel.swift in Sources */,
+				29C7A91226FF1797008F2957 /* Constant+Extension.swift in Sources */,
+				29764AF6270001B000283A90 /* WeatherViewController.swift in Sources */,
+				29C7A8E426FEBC92008F2957 /* APIList.swift in Sources */,
+				29C7A8D926FEB45A008F2957 /* Storyboard+Enum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29C7A8B326FEAC56008F2957 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29C7A8B426FEAC56008F2957 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29C7A8BB26FEAC57008F2957 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29C7A8BC26FEAC57008F2957 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29C7A8BF26FEAC57008F2957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29C7A8C026FEAC57008F2957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29C7A8C226FEAC57008F2957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5DCDD9CE84F940FB04B85F /* Pods-Zoho.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJK68QP46L;
+				INFOPLIST_FILE = Zoho/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Zoho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29C7A8C326FEAC57008F2957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CECF14F2DA42F90E546DD2B /* Pods-Zoho.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJK68QP46L;
+				INFOPLIST_FILE = Zoho/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Zoho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29C7A8A526FEAC56008F2957 /* Build configuration list for PBXProject "Zoho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C7A8BF26FEAC57008F2957 /* Debug */,
+				29C7A8C026FEAC57008F2957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C7A8C126FEAC57008F2957 /* Build configuration list for PBXNativeTarget "Zoho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C7A8C226FEAC57008F2957 /* Debug */,
+				29C7A8C326FEAC57008F2957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		29C7A8B626FEAC56008F2957 /* Zoho.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				29C7A8B726FEAC56008F2957 /* Zoho.xcdatamodel */,
+			);
+			currentVersion = 29C7A8B726FEAC56008F2957 /* Zoho.xcdatamodel */;
+			path = Zoho.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29C7A8A226FEAC56008F2957 /* Project object */;
+}
