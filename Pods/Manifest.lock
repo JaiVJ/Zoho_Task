@@ -1,12 +1,6 @@
 PODS:
   - Alamofire (4.8.2)
   - Hero (1.6.1)
-  - Localize-Swift (3.2.0):
-    - Localize-Swift/LocalizeSwiftCore (= 3.2.0)
-    - Localize-Swift/UIKit (= 3.2.0)
-  - Localize-Swift/LocalizeSwiftCore (3.2.0)
-  - Localize-Swift/UIKit (3.2.0):
-    - Localize-Swift/LocalizeSwiftCore
   - lottie-ios (3.2.3)
   - SDWebImage (5.11.1):
     - SDWebImage/Core (= 5.11.1)
@@ -15,7 +9,6 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 4.8.1)
   - Hero
-  - Localize-Swift
   - lottie-ios
   - SDWebImage
 
@@ -23,17 +16,15 @@ SPEC REPOS:
   trunk:
     - Alamofire
     - Hero
-    - Localize-Swift
     - lottie-ios
     - SDWebImage
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   Hero: 215865ba3ae41dd9bb08cd6c60a645529c6fc94b
-  Localize-Swift: 6f4475136bdb0d7b2882ea3d4ea919d70142b232
   lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
 
-PODFILE CHECKSUM: 5601b51f1cede5728d0b6adcc50f44ee20db2ed5
+PODFILE CHECKSUM: 62ed7b72ad7cdf237a7be5e1fd354694f5283cae
 
 COCOAPODS: 1.10.1

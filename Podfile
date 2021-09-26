@@ -6,7 +6,6 @@ target 'Zoho' do
   use_frameworks!
 
   pod 'Alamofire', '~> 4.8.1'
-  pod 'Localize-Swift'
   pod 'SDWebImage'
   pod 'lottie-ios'
   pod 'Hero'
