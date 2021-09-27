@@ -18,32 +18,24 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var cityLbl: UILabel!
     @IBOutlet weak var dateLbl: UILabel!
     
-    @IBOutlet weak var todayLbl: UILabel!
-    @IBOutlet weak var lottieView: UIView!
+    @IBOutlet weak var weatherMainView: CustomView!
     
-    @IBOutlet weak var temperatureLbl: UILabel!
-    @IBOutlet weak var conditionLbl: UILabel!
-    
-    @IBOutlet weak var windSpeedView: CustomView!
-    @IBOutlet weak var humidityView: CustomView!
-    @IBOutlet weak var rainChancesView: CustomView!
-    
-    @IBOutlet weak var windSpeedLbl: UILabel!
-    @IBOutlet weak var humidityLbl: UILabel!
-    @IBOutlet weak var rainChancesLbl: UILabel!
-    
-    let animationView = AnimationView()    
-    
+    var weatherView: WeatherView!
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         setComponents()
         viewModel = WeatherViewModel(dataSource: WeatherDataSource())
         createGredientBackground()
-        lottieInitialization()
         mainView.isHidden = true
         searchTxt.delegate = self
         viewBind()
+        
+        weatherView = .fromNib()
+        weatherView.frame = weatherMainView.bounds
+        weatherMainView.addSubview(weatherView)
     }
+    
     
     private func viewBind() {
         viewModel.refreshData = {
@@ -61,22 +53,10 @@ class WeatherViewController: UIViewController {
     }
     
     private func bindData() {
-        
         mainView.isHidden = false
-
         cityLbl.text = viewModel.city
         dateLbl.text = viewModel.date
-        todayLbl.text = "Today"
-        let animation = Animation.named(viewModel.getLottieAnimationFor(icon: viewModel.weatherIcon))
-        animationView.animation = animation
-        animationView.play()
-        temperatureLbl.text = "\(viewModel.temperature)℃"
-        conditionLbl.text = viewModel.conditions
-  
-        windSpeedLbl.text = "\(viewModel.windSpeed) km/hr"
-        humidityLbl.text = "\(viewModel.humidity)"
-        rainChancesLbl.text = "\(viewModel.rainChances)"
-        
+        weatherView.loadData(viewModel)
     }
 
     
@@ -157,30 +137,9 @@ extension WeatherViewController {
         searchTxt.text = ""
         cityLbl.text = ""
         dateLbl.text = ""
-        todayLbl.text = ""
-        temperatureLbl.text = ""
-        conditionLbl.text = ""
-        windSpeedLbl.text = ""
-        humidityLbl.text = ""
-        rainChancesLbl.text = ""
         searchTxt.font = UIFont.appGiloryMediumFontWith(size: 18)
         cityLbl.font = UIFont.appGiloryMediumFontWith(size: 18)
         dateLbl.font = UIFont.appGiloryMediumFontWith(size: 18)
-        todayLbl.font = UIFont.appGiloryBoldFontWith(size: 36)
-        temperatureLbl.font = UIFont.appGiloryBoldFontWith(size: 28)
-        conditionLbl.font = UIFont.appGiloryMediumFontWith(size: 18)
-        windSpeedLbl.font = UIFont.appGiloryBoldFontWith(size: 16)
-        humidityLbl.font = UIFont.appGiloryBoldFontWith(size: 16)
-        rainChancesLbl.font = UIFont.appGiloryBoldFontWith(size: 16)
     }
     
-    func lottieInitialization() {
-        lottieView.backgroundColor = .clear
-        animationView.frame = lottieView.frame
-        animationView.center = self.lottieView.center
-        animationView.contentMode = .scaleAspectFill
-        animationView.loopMode = .loop
-        lottieView.addSubview(animationView)
-
-    }
 }

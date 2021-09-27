@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		295E3CF82701521800C2BB2C /* WeatherView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 295E3CF72701521800C2BB2C /* WeatherView.xib */; };
+		295E3CFA2701523800C2BB2C /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E3CF92701523800C2BB2C /* WeatherView.swift */; };
 		296134E4270049A700656330 /* dayScatteredClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134D2270049A600656330 /* dayScatteredClouds.json */; };
 		296134E5270049A700656330 /* dayMist.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134D3270049A600656330 /* dayMist.json */; };
 		296134E6270049A700656330 /* nightSnow.json in Resources */ = {isa = PBXBuildFile; fileRef = 296134D4270049A600656330 /* nightSnow.json */; };
@@ -72,6 +74,8 @@
 
 /* Begin PBXFileReference section */
 		15B861ADA065491BB17AC5B0 /* Pods_Zoho.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zoho.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		295E3CF72701521800C2BB2C /* WeatherView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherView.xib; sourceTree = "<group>"; };
+		295E3CF92701523800C2BB2C /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		296134D2270049A600656330 /* dayScatteredClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayScatteredClouds.json; sourceTree = "<group>"; };
 		296134D3270049A600656330 /* dayMist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayMist.json; sourceTree = "<group>"; };
 		296134D4270049A600656330 /* nightSnow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightSnow.json; sourceTree = "<group>"; };
@@ -180,6 +184,8 @@
 			children = (
 				296134F82700699F00656330 /* WeatherHourlyCollectionViewCell.swift */,
 				296134F92700699F00656330 /* WeatherHourlyCollectionViewCell.xib */,
+				295E3CF72701521800C2BB2C /* WeatherView.xib */,
+				295E3CF92701523800C2BB2C /* WeatherView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -471,6 +477,7 @@
 				296134EB270049A700656330 /* nightBrokenClouds.json in Resources */,
 				296134FB2700699F00656330 /* WeatherHourlyCollectionViewCell.xib in Resources */,
 				29C7A8FC26FEFCAF008F2957 /* Gilroy-Light.ttf in Resources */,
+				295E3CF82701521800C2BB2C /* WeatherView.xib in Resources */,
 				296134EA270049A700656330 /* dayRain.json in Resources */,
 				296134E5270049A700656330 /* dayMist.json in Resources */,
 				29C7A8BA26FEAC57008F2957 /* Assets.xcassets in Resources */,
@@ -560,6 +567,7 @@
 				29EDDE8E26FFA17E00A7F5A2 /* Constant+Singleton.swift in Sources */,
 				296134FA2700699F00656330 /* WeatherHourlyCollectionViewCell.swift in Sources */,
 				29C7A8CC26FEB052008F2957 /* Animations.swift in Sources */,
+				295E3CFA2701523800C2BB2C /* WeatherView.swift in Sources */,
 				29C7A8D826FEB45A008F2957 /* Storyboard+Extension.swift in Sources */,
 				29C7A90326FEFDC1008F2957 /* Constant+Strings.swift in Sources */,
 				29C7A8C526FEADB1008F2957 /* SplashViewController.swift in Sources */,
