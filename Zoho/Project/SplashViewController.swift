@@ -6,38 +6,43 @@
 //
 
 import UIKit
+import CoreLocation
 
-class SplashViewController: UIViewController {
+class SplashViewController: UIViewController, CLLocationManagerDelegate {
 
     private var revealingLoaded = true
+    
+    var locationManager: CLLocationManager?
+    var revealingSplashView: RevealingSplashView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let revealingSplashView = RevealingSplashView(iconImage: UIImage(named: "app_logo")!, iconInitialSize: CGSize(width: 170, height: 170), backgroundImage: UIImage(named: "splash_background")!)
-        
+        revealingSplashView = RevealingSplashView(iconImage: UIImage(named: "app_logo")!, iconInitialSize: CGSize(width: 170, height: 170), backgroundImage: UIImage(named: "splash_background")!)
         
         self.view.addSubview(revealingSplashView)
         
         revealingSplashView.duration = 4.0
-        
-        revealingSplashView.startAnimation() {
-            self.revealingLoaded = false
-            self.setNeedsStatusBarAppearanceUpdate()
-            self.moveHome()
-        }
+                
+        locationManager = CLLocationManager()
+        locationManager?.delegate = self
+        locationManager?.requestAlwaysAuthorization()
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-//        self.moveHome()
-    }
-
     override var prefersStatusBarHidden: Bool {
         return revealingLoaded
     }
 
     override var preferredStatusBarUpdateAnimation: UIStatusBarAnimation {
         return UIStatusBarAnimation.fade
+    }
+    
+    func startAnimation() {
+        revealingSplashView.startAnimation() {
+            self.revealingLoaded = false
+            self.setNeedsStatusBarAppearanceUpdate()
+            self.moveHome()
+        }
     }
 
     
@@ -51,5 +56,10 @@ class SplashViewController: UIViewController {
         }
 
     }
-
+    
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        if status != .notDetermined {
+            startAnimation()
+        }
+    }
 }

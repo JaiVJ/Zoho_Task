@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import CoreLocation
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,9 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         NetworkMonitor.shared.startMonitoring()
-        
-        CLLocationManager().requestWhenInUseAuthorization()
-
+    
         
         let vc = UINavigationController(rootViewController: SplashViewController.instantiate(fromAppStoryboard: .Main))
         vc.isNavigationBarHidden = true
